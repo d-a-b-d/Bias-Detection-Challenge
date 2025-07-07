@@ -7,8 +7,8 @@ The dataset simulates job applicant profiles with the following fields:
 =
 | **Feature**                | **Description**                                                   |
 |----------------------------|-------------------------------------------------------------------|
-| Age, ExperienceYears,      | Numerical hiring factors   
-|  SkillScore, InterviewScore |                                                                   |
+| Age, ExperienceYears,      | Numerical hiring factors                                          |   
+| SkillScore, InterviewScore | Numerical hiring factors                                          |
 | Gender                     | Sensitive attribute: 0 = Male, 1 = Female                         |
 | RecruitmentStrategy        | 1 = Aggressive, 2 = Moderate, 3 = Conservative                    |
 | HiringDecision             | Target variable: 1 = Hired, 0 = Not Hired                         |
@@ -17,7 +17,7 @@ The dataset simulates job applicant profiles with the following fields:
 
 ### Model Architecture
 
-1. TF-IDF + Logistic Regression
+TF-IDF + Logistic Regression.
 Input: Text-only.
 
 Vectorizer: Unigrams + bigrams.
@@ -49,7 +49,7 @@ SHAP showed model is merit-based, not biased.
 Gender imbalance in training alone did not cause unfair outcomes.
 
 
-### TO-DO
+## TO-DO
 Refactor into bigger project for automated end-to-end resume screening. 
 
 Deploy bias dashboard (e.g., with Streamlit or Gradio).
