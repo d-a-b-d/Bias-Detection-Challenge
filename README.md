@@ -7,8 +7,8 @@ The dataset simulates job applicant profiles with the following fields:
 =
 | **Feature**                | **Description**                                                   |
 |----------------------------|-------------------------------------------------------------------|
-| Age, ExperienceYears,        Numerical hiring factors   
-  SkillScore, InterviewScore |                                                                   |
+| Age, ExperienceYears,      | Numerical hiring factors   
+|  SkillScore, InterviewScore |                                                                   |
 | Gender                     | Sensitive attribute: 0 = Male, 1 = Female                         |
 | RecruitmentStrategy        | 1 = Aggressive, 2 = Moderate, 3 = Conservative                    |
 | HiringDecision             | Target variable: 1 = Hired, 0 = Not Hired                         |
